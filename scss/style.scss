@@ -134,7 +134,12 @@ body {
       left: 0;
       z-index: 2;
       transform: translateX(100%);
+      transition: 0.2s all linear;
 
+   }
+
+   .is-open {
+      transform: translateX(0);
    }
 
    .close {
