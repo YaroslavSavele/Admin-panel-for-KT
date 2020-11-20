@@ -293,11 +293,14 @@ body {
 
 // Questions-main style start
 
+
 .questions-main {
+   margin-top: 33px;
 }
 .question-card {
    width: 1109px;
-   padding: 25px 50px 45px 34px;
+   padding: 25px 50px 37px 34px;
+   margin-bottom: 58px;
    background-color: #f0d4d4;
    border-radius: 10px;
    font-weight: normal;
@@ -305,10 +308,63 @@ body {
    line-height: 22px;
    position: relative;
 
+   @media (max-width: 1450px) {
+      width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+   }
+
+   @media (max-width: 750px) {
+      padding-top: 100px;
+   }
+
    .group-batton {
       position: absolute;
-      top: 23px;
-      right: 4px;
+      top: 18px;
+      right: 7px;
+
+      .button {
+         padding: 2px 5px;
+         margin: 5px;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 22px;
+
+         background-color: transparent;
+         border: 1px solid currentColor;
+
+         @media (max-width: 445px) {
+            font-size: 0;
+         }
+
+         img {
+            margin-right: 2px;
+         }
+
+         &--ansver {
+            color: #2bc055;
+         }
+         &--no-ansver {
+            color: #d02b2b;
+         }
+      }
+      .status {
+         text-align: left;
+         margin-top: 3px;
+         margin-left: 154px;
+
+         @media (max-width: 445px) {
+            text-align: center;
+            margin-left: 0;
+         }
+
+         &--yes {
+            color: #2bc055;
+         }
+         &--no {
+            color: #d02b2b;
+         }
+      }
    }
 
    .date {
@@ -320,43 +376,4 @@ body {
    }
 }
 
-.date__title {
-}
-.date__date {
-}
-.date__time {
-}
 
-.button {
-}
-.button--ansver {
-}
-.button--no-ansver {
-}
-.status {
-}
-.status--yes {
-}
-
-.name__title {
-}
-.name__body {
-}
-.email {
-}
-.email__title {
-}
-.email__body {
-}
-.location {
-}
-.location__title {
-}
-.location__body {
-}
-.quest {
-}
-.quest__title {
-}
-.quest__body {
-}
