@@ -135,7 +135,6 @@ body {
       z-index: 2;
       transform: translateX(-100%);
       transition: 0.2s all linear;
-
    }
 
    &.is-open {
@@ -201,6 +200,8 @@ body {
    }
 }
 // Aside style end
+
+// Main style start
 
 .section-main {
    background-color: #f0e7e7;
@@ -287,4 +288,75 @@ body {
    img {
       width: 100%;
    }
+}
+// Main style end
+
+// Questions-main style start
+
+.questions-main {
+}
+.question-card {
+   width: 1109px;
+   padding: 25px 50px 45px 34px;
+   background-color: #f0d4d4;
+   border-radius: 10px;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 22px;
+   position: relative;
+
+   .group-batton {
+      position: absolute;
+      top: 23px;
+      right: 4px;
+   }
+
+   .date {
+      margin-bottom: 8px;
+   }
+
+   & div + div {
+      margin-bottom: 8px;
+   }
+}
+
+.date__title {
+}
+.date__date {
+}
+.date__time {
+}
+
+.button {
+}
+.button--ansver {
+}
+.button--no-ansver {
+}
+.status {
+}
+.status--yes {
+}
+
+.name__title {
+}
+.name__body {
+}
+.email {
+}
+.email__title {
+}
+.email__body {
+}
+.location {
+}
+.location__title {
+}
+.location__body {
+}
+.quest {
+}
+.quest__title {
+}
+.quest__body {
 }

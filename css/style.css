@@ -436,3 +436,28 @@ body {
 .shedule-main img {
   width: 100%;
 }
+
+.question-card {
+  width: 1109px;
+  padding: 25px 50px 45px 34px;
+  background-color: #f0d4d4;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+}
+
+.question-card .group-batton {
+  position: absolute;
+  top: 23px;
+  right: 4px;
+}
+
+.question-card .date {
+  margin-bottom: 8px;
+}
+
+.question-card div + div {
+  margin-bottom: 8px;
+}
