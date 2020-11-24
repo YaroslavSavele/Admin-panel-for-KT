@@ -313,6 +313,7 @@ body {
 }
 
 .nav__item .link img {
+  width: 25px;
   margin-right: 15px;
 }
 
