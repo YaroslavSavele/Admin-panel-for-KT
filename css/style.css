@@ -538,6 +538,7 @@ body {
   width: 1119px;
   height: 66px;
   padding: 0 30px;
+  margin-bottom: 15px;
   background: #e1d1d1;
   border-radius: 5px;
   display: -webkit-box;
@@ -551,6 +552,35 @@ body {
           justify-content: space-between;
   font-size: 18px;
   line-height: 22px;
+}
+
+@media (max-width: 1450px) {
+  .address-card {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .address-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 95%;
+    height: initial;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .address-card .address {
+    margin-bottom: 15px;
+  }
 }
 
 .address-card .checkbox {
@@ -570,7 +600,8 @@ body {
 }
 
 .address-card .checkbox input {
-  width: 27px;
-  height: 27px;
-  background: transparent;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: 2px solid #734848;
 }
