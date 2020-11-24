@@ -529,3 +529,48 @@ body {
 .question-card div + div {
   margin-bottom: 8px;
 }
+
+.addresses-main {
+  margin-top: 33px;
+}
+
+.address-card {
+  width: 1119px;
+  height: 66px;
+  padding: 0 30px;
+  background: #e1d1d1;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.address-card .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.address-card .checkbox span {
+  margin-right: 19px;
+}
+
+.address-card .checkbox input {
+  width: 27px;
+  height: 27px;
+  background: transparent;
+}

@@ -293,7 +293,6 @@ body {
 
 // Questions-main style start
 
-
 .questions-main {
    margin-top: 33px;
 }
@@ -310,8 +309,8 @@ body {
 
    @media (max-width: 1450px) {
       width: 90%;
-     margin-right: auto;
-     margin-left: auto;
+      margin-right: auto;
+      margin-left: auto;
    }
 
    @media (max-width: 750px) {
@@ -375,5 +374,48 @@ body {
       margin-bottom: 8px;
    }
 }
+// Questions-main style finsh
 
+// Addresses-main style start
+.title {
+}
+.title--addresses {
+}
+.addresses-main {
+   margin-top: 33px;
+}
+.addresses-cards {
+}
+.address-card {
+   width: 1119px;
+   height: 66px;
+   padding: 0 30px;
 
+   background: #e1d1d1;
+   border-radius: 5px;
+
+   @include flex();
+
+   font-size: 18px;
+   line-height: 22px;
+
+   .checkbox {
+      @include flex();
+
+      span {
+         margin-right: 19px;
+      }
+      input {
+      width: 25px;
+      height: 25px;
+      background-color: transparent;
+      border: 2px solid #734848;
+
+   }
+   }
+
+   .checkbox 
+}
+
+.address {
+}
