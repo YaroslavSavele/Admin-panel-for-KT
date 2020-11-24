@@ -420,6 +420,7 @@ body {
 
    .checkbox {
       @include flex();
+      cursor: pointer;
 
       span {
          margin-right: 19px;
