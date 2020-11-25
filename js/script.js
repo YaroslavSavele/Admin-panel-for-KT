@@ -31,6 +31,10 @@ buttonClose.addEventListener('click', () => {
       chek.addEventListener('change', () => {
          let address = chek.previousElementSibling;
          address.classList.toggle('bright');
-        
       });
+      let inp = chek.querySelector('input');
+      let address = chek.previousElementSibling;
+      if (inp.checked) {
+         address.classList.add('bright');
+      }
    }
