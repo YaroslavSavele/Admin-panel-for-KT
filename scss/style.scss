@@ -414,8 +414,12 @@ body {
    }
 
       .address {
+          color: rgba(125, 83, 83, 0.5);
           @media (max-width: 700px) {
             margin-bottom: 15px;
+         }
+         &.bright {
+            color: #7d5353;
          }
       }
 

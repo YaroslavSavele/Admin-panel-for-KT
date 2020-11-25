@@ -578,10 +578,18 @@ body {
   }
 }
 
+.address-card .address {
+  color: rgba(125, 83, 83, 0.5);
+}
+
 @media (max-width: 700px) {
   .address-card .address {
     margin-bottom: 15px;
   }
+}
+
+.address-card .address.bright {
+  color: #7d5353;
 }
 
 .address-card .checkbox {
