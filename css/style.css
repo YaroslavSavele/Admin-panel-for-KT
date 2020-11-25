@@ -614,4 +614,53 @@ body {
   height: 25px;
   background-color: transparent;
   border: 2px solid #734848;
+  cursor: pointer;
+}
+
+.pupup {
+  width: 10%;
+  padding: 8px 0px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.1;
+  color: #1ec31e;
+  border: 2px solid;
+  border-radius: 15px;
+  position: fixed;
+  bottom: 7%;
+  right: 14%;
+  overflow: hidden;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  -webkit-transform: translate(0px, 100%);
+          transform: translate(0px, 100%);
+}
+
+@media (max-width: 750px) {
+  .pupup {
+    width: 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  .pupup {
+    width: 30%;
+  }
+}
+
+.popup--success.emerge {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0);
+          transform: translate(0px, 0);
+}
+
+.popup--error {
+  color: red;
+}
+
+.popup--error.emerge {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0);
+          transform: translate(0px, 0);
 }
